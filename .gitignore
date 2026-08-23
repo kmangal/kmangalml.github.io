@@ -1,0 +1,19 @@
+_site
+.bundle
+.DS_store
+.idea
+.jekyll-cache
+.jekyll-metadata
+.sass-cache
+.venv
+vendor
+node_modules/
+al-folio-upgrade-report.md
+
+# Python bytecode from bin/ helper scripts
+__pycache__/
+*.pyc
+
+*.docx
+/files/cv/archive/*
+/files/photo/archive/*
