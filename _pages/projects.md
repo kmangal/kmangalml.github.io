@@ -2,10 +2,10 @@
 layout: page
 title: side projects
 permalink: /projects/
-description: Ongoing side projects, alongside the academic research study that occupied my prior career.
+description: Ongoing side projects in AI/ML and NLP.
 nav: true
 nav_order: 2
-display_categories: [ml, research]
+display_categories: [ml]
 horizontal: false
 ---
 

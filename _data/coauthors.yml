@@ -1,6 +1,0 @@
-# Maps a bibtex author's last name (lowercase) to a list of {firstname variants, url}
-# so jekyll-scholar can hyperlink that coauthor's name in the publications page.
-# Currently empty -- add entries as needed, e.g.:
-# "bloesch":
-#   - firstname: ["Justin"]
-#     url: https://example.com

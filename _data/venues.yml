@@ -1,4 +1,0 @@
-# Maps a bibtex entry's `abbr` field to an optional url/color for styling the journal badge.
-# Currently empty -- add entries as needed, e.g.:
-# "JDE":
-#   url: https://www.sciencedirect.com/journal/journal-of-development-economics
