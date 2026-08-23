@@ -12,9 +12,21 @@
 {% endcapture %}
 
 {% capture footer_social %}
-  {% if site.data.socials.linkedin_username or site.data.socials.github_username %}
+  {% if site.data.socials.email or site.data.socials.linkedin_username or site.data.socials.github_username %}
     <div class="site-footer-social">
-      <p>Contact: </p>
+      <p>Find me on: </p>
+      {% if site.data.socials.email %}
+        {% if site.protect_email %}
+          {% assign email_parts = site.data.socials.email | split: '@' %}
+          <a href="#" class="al-email-protect" data-eu="{{ email_parts[0] }}" data-ed="{{ email_parts[1] }}">
+            <i class="fa-solid fa-envelope"></i> Email
+          </a>
+        {% else %}
+          <a href="mailto:{{ site.data.socials.email }}">
+            <i class="fa-solid fa-envelope"></i> Email
+          </a>
+        {% endif %}
+      {% endif %}
       {% if site.data.socials.linkedin_username %}
         <a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}" target="_blank" rel="noopener noreferrer">
           <i class="fa-brands fa-linkedin"></i> LinkedIn
