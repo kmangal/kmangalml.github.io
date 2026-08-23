@@ -41,6 +41,11 @@
   {% endif %}
 {% endcapture %}
 
+{% comment %}
+  Uses --global-text-color rather than --global-footer-link-color: the latter
+  is tuned for the fixed-bottom footer's own inverted background, which the
+  sticky-bottom variant (footer_fixed: false, in use here) never sets.
+{% endcomment %}
 <style>
   .site-footer-social {
     display: flex;
@@ -55,7 +60,7 @@
   .site-footer-social a {
     display: inline-flex;
     align-items: center;
-    color: var(--global-footer-link-color);
+    color: var(--global-text-color);
     font-size: 0.9rem;
     text-decoration: none;
   }
@@ -73,7 +78,7 @@
 
   .site-footer-social p {
     margin: 0;
-    color: var(--global-footer-link-color);
+    color: var(--global-text-color);
   }
 </style>
 

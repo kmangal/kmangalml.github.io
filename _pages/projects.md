@@ -2,10 +2,10 @@
 layout: page
 title: side projects
 permalink: /projects/
-description: Ongoing side projects in AI/ML and NLP.
+description: 
 nav: true
 nav_order: 2
-display_categories: [ml]
+display_categories: []
 horizontal: false
 ---
 

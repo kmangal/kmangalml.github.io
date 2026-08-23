@@ -19,10 +19,17 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! **I'm an applied AI/ML engineer**, specializing in NLP and document processing at scale.
+Hi! **I'm an applied AI/ML engineer**, specializing in NLP and document processing at scale. I'm based in Berkeley, CA.
 
-I currently work at <a href="https://www.neo.tax/">Neo.Tax</a>, where I build systems that solve prediction problems with the right balance of performance, latency, cost, auditability, and time to build.
+Currently, I work as a a Senior Data Scientist <a href="https://www.neo.tax/">Neo.Tax</a>, an early-stage firm automating enterprise accounting processes. As an early hire, I've had a chance to build many of the predictive systems that power the product from scratch. Some of my favorite projects include:
+* Engineering an agentic pipeline that mimics IRS auditor review
+* Building a custom evaluation framework for a clustering pipeline where standard methods (ground-truth labels, silhouette score) didn't apply
+* Designing a hybrid retrieval pipeline to match Jira tickets to user-defined projects by semantic similarity
 
 Previously, I was an academic economist researching labor markets in developing countries. You can read more about my research [here](https://kmangal.github.io).
 
-Take a look at my [projects](/projects/) to see what I'm currently building.
+Outside of work, I like to find [side projects](/projects/) where I can put my engineering skills towards causes that I care about.
+
+I'm always excited to meet other people working on similar problems&mdash;if that's you, feel free to reach out!
+
+

@@ -16,6 +16,8 @@ pagination:
     after: 3 # The number of links after the current page
 ---
 
+<b>Coming soon!</b>
+
 <div class="post">
 
 {% assign blog_name_size = site.blog_name | size %}
