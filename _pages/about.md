@@ -2,8 +2,6 @@
 layout: about
 title: about
 permalink: /
-nav: true
-nav_order: 0
 subtitle: Applied AI/ML engineer &middot; NLP &amp; document processing
 
 profile:
