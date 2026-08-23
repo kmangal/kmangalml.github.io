@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://kmangal.github.io/sitemap.xml
+Sitemap: https://kmangalml.github.io/sitemap.xml
