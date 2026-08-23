@@ -5,8 +5,7 @@
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Kunal
 last_name: Mangal
-contact_note: >
-  Email is the best way to reach me.
+contact_note:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Applied AI/ML engineer specializing in NLP and document processing at scale. Previously an academic economist.
 footer_text: >
@@ -94,7 +93,7 @@ al_folio:
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 search_enabled: true
 socials_in_search: true
 posts_in_search: true
