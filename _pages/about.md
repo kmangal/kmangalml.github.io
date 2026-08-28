@@ -21,7 +21,7 @@ latest_posts:
 
 Hi! **I'm an applied AI/ML engineer**, specializing in NLP and document processing at scale. I'm based in Berkeley, CA.
 
-Currently, I work as a a Senior Data Scientist <a href="https://www.neo.tax/">Neo.Tax</a>, an early-stage firm automating enterprise accounting processes. As an early hire, I've had a chance to build many of the predictive systems that power the product from scratch. Some of my favorite projects include:
+Currently, I work as a a Senior Data Scientist <a href="https://www.neo.tax/">Neo.Tax</a>, where we automate enterprise accounting processes. As an early hire, I've had a chance to build many of the predictive systems that power the product from scratch. Some of my favorite projects include:
 * Engineering an agentic pipeline that mimics IRS auditor review
 * Building a custom evaluation framework for a clustering pipeline where standard methods (ground-truth labels, silhouette score) didn't apply
 * Designing a hybrid retrieval pipeline to match Jira tickets to user-defined projects by semantic similarity
